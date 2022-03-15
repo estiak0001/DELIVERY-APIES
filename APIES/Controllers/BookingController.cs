@@ -65,10 +65,10 @@ namespace APIES.Controllers
             {
                 try
                 {
-                    string path = _hostEnvironment.WebRootPath + $@"\ReceiveImage";
+                    string originalDirectory = _hostEnvironment.WebRootPath + $@"\ReceiveImage";
 
                     var tt = Path.Combine(Directory.GetCurrentDirectory());
-                    var originalDirectory = Path.Combine("H:\\Curiar Dalivery\\API\\CurierImages\\ReceiveImage");
+                    //var originalDirectory = Path.Combine("H:\\Curiar Dalivery\\API\\CurierImages\\ReceiveImage");
                     var pathString = Path.Combine(originalDirectory.ToString(), cnNumber);
 
                     //if (Directory.Exists(pathString))
@@ -147,10 +147,10 @@ namespace APIES.Controllers
 
             try
             {
-                //string path = _hostEnvironment.WebRootPath + $@"\ReceiveImage";
+                string originalDirectory = _hostEnvironment.WebRootPath + $@"\IssuesImage";
 
                 var tt = Path.Combine(Directory.GetCurrentDirectory());
-                var originalDirectory = Path.Combine("H:\\Curiar Dalivery\\API\\CurierImages\\IssuesImage");               
+                //var originalDirectory = Path.Combine("H:\\Curiar Dalivery\\API\\CurierImages\\IssuesImage");               
                 var pathString = Path.Combine(originalDirectory.ToString(), cnNumber);
 
                 //if (Directory.Exists(pathString))

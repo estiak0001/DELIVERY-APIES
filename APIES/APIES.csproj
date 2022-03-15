@@ -39,6 +39,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\IssuesImage\" />
     <Folder Include="wwwroot\ReceiveImage\" />
   </ItemGroup>
 
